@@ -1,27 +1,17 @@
-# Next.js + Tailwind CSS Example
+## Dive Into Tailwind
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This repository serves as a means to play with [Tailwind](https://tailwindcss.com/). 
 
-## Preview
+I came across [this video](https://www.youtube.com/watch?v=_HOV95Szb84) where someone made an AirBnB clone and decided to do the same.
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+### Why Tailwind?
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+In the autumn of 2020, I had the pleasure of speaking with the founder, Adam Wathan and engaging in a Reactiflix Q&A.  
 
-## Deploy your own
+However, I was still unclear about:
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+* What does this tool offer that I can't do myself?
+* How does it differentiate among component building libraries?
+* Will it eventually become another layer of abstraction that I will ultimately have to fight?
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+A year later, I wanted to try it out . I haven't had any REAL issues with CSS modules, but it does require patience. I wanted something robust, small (in packaging), but that still gave me the freedom I wanted to build and style my UIs. 
