@@ -9,8 +9,8 @@ import {
 
 function Header() {
   return (
-    <header className="sticky top-0 z-10 shadow-sm p-5 md:px-10 grid grid-cols-3">
-      <div className="h-10 relative my-auto bg-red-100">
+    <header className="sticky top-0 z-10 shadow-sm p-5 md:px-10 grid grid-cols-2 md:grid-cols-3">
+      <div className="h-10 relative my-auto">
         <Image
           src="https://links.papareact.com/qd3"
           layout="fill"
@@ -18,7 +18,7 @@ function Header() {
           objectPosition="left"
         />
       </div>
-      <div className="flex items-center md:border-2 rounded-full md:shadow-sm">
+      <div className="hidden md:inline-flex flex items-center md:border-2 rounded-full md:shadow-sm">
         <input
           id="search"
           name="search"
@@ -26,7 +26,7 @@ function Header() {
           placeholder="Start your search"
           className="outline-1 outline-blue-400 text-gray-600 placeholder-gray-400 pl-5 bg-transparent flex-grow py-2"
         />
-        <SearchIcon className="hidden md:inline-flex bg-red-400 text-white rounded-full h-8 p-2 mx-auto" />
+        <SearchIcon className="bg-red-400 text-white rounded-full h-8 p-2 mx-auto" />
       </div>
       <div className="flex text-gray-500 justify-end items-center space-x-2">
         <a href="#" className="hidden lg:inline">
